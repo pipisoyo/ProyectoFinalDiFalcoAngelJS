@@ -3,11 +3,11 @@ const inputUser = document.querySelector("#user")
 const inputPass = document.querySelector("#pass")
 const message = document.querySelector("#message")
 const noEncotrado = document.querySelector("#noEncontrado")
-const usuarios = JSON.parse(localStorage.getItem("usuarios"))
+let usuarios = JSON.parse(localStorage.getItem("usuarios"))
 
 //verifica si usuario existe en LocalStorage, sino es asi crea un arrary vacio
 function usuariosLs() {
-    if (usuarios === null) {
+    if (usuarios == null) {
         usuarios = []
     }
 }
@@ -16,7 +16,8 @@ function validar(contenedor, usuarios) {
     contenedor.innerHTML = " ";
     let html;
     let usuarioLog
-    usuariosLs()
+    console.log('usuarios', usuarios)
+
     //busca si el usuario ingresado esta en el array usuarios si es asi lo guarda en una variable, compara si el usuario y la contraseña coiciden con las q estan el LS
     let usuarioEncontrado = usuarios.find((usuario) => {
         usuarioLog = usuario.usuario;
@@ -34,6 +35,7 @@ function validar(contenedor, usuarios) {
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
+    usuariosLs()
     validar(noEncotrado, usuarios);
 })
 
