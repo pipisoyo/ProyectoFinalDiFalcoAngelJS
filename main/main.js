@@ -49,6 +49,9 @@ function crearHtml(contenedor, arr) {
     contenedor.innerHTML = "";
     let html;
     let idd = 0;
+    if (arr.length == 0){
+        contenedor.innerHTML = `<h1>Si coincidencias</h1>`;
+    }else{
     for (let i = 0; i < arr.length; i++) {
         const carritoLS = JSON.parse(localStorage.getItem(usuarioLog + "carrito"))
         carritoLS.forEach((e) => {
@@ -68,6 +71,7 @@ function crearHtml(contenedor, arr) {
                 </div>`;
         contenedor.innerHTML += html
     }
+}
     agregarOquitar()
 }
 
