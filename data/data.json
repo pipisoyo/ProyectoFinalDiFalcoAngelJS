@@ -1,0 +1,218 @@
+[
+    {
+        "codigo": 1,
+        "rubro": 2,
+        "codigoInterno": 1,
+        "nombreProducto": "Sugus",
+        "precio": 10,
+        "stock": 10,
+        "imagen": "sugus.jpeg"
+    },
+    {
+        "codigo": 2,
+        "rubro": 2,
+        "codigoInterno": 2,
+        "nombreProducto": "Palito de la selva",
+        "precio": 12,
+        "stock": 10,
+        "imagen": "palitos-de-la-selva.jpeg"
+    },
+    {
+        "codigo": 3,
+        "rubro": 2,
+        "codigoInterno": 3,
+        "nombreProducto": "Billiken",
+        "precio": 56,
+        "stock": 10,
+        "imagen": "billiken.jpeg"
+    },
+    {
+        "codigo": 4,
+        "rubro": 3,
+        "codigoInterno": 1,
+        "nombreProducto": "Block",
+        "precio": 78,
+        "stock": 10,
+        "imagen": "block.jpg"
+    },
+    {
+        "codigo": 5,
+        "rubro": 3,
+        "codigoInterno": 2,
+        "nombreProducto": "Milka",
+        "precio": 29,
+        "stock": 10,
+        "imagen": "milka.jpg"
+    },
+    {
+        "codigo": 6,
+        "rubro": 3,
+        "codigoInterno": 3,
+        "nombreProducto": "Toke",
+        "precio": 66,
+        "stock": 10,
+        "imagen": "toke.jpeg"
+    },
+    {
+        "codigo": 7,
+        "rubro": 4,
+        "codigoInterno": 1,
+        "nombreProducto": "Cargador",
+        "precio": 88,
+        "stock": 10,
+        "imagen": "cargador.jpg"
+    },
+    {
+        "codigo": 8,
+        "rubro": 4,
+        "codigoInterno": 2,
+        "nombreProducto": "Cable Usb",
+        "precio": 96,
+        "stock": 10,
+        "imagen": "cable-usb.jpeg"
+    },
+    {
+        "codigo": 9,
+        "rubro": 4,
+        "codigoInterno": 3,
+        "nombreProducto": "Memoria Micro SD 32gb",
+        "precio": 58,
+        "stock": 10,
+        "imagen": "memoria.jpg"
+    },
+    {
+        "codigo": 10,
+        "rubro": 5,
+        "codigoInterno": 1,
+        "nombreProducto": "Divercion",
+        "precio": 96,
+        "stock": 10,
+        "imagen": "divercion.jpg"
+    },
+    {
+        "codigo": 11,
+        "rubro": 5,
+        "codigoInterno": 2,
+        "nombreProducto": "Oreo",
+        "precio": 88,
+        "stock": 10,
+        "imagen": "oreo.jpg"
+    },
+    {
+        "codigo": 12,
+        "rubro": 5,
+        "codigoInterno": 3,
+        "nombreProducto": "Don Satur",
+        "precio": 13,
+        "stock": 10,
+        "imagen": "don-satur.jpg"
+    },
+    {
+        "codigo": 13,
+        "rubro": 6,
+        "codigoInterno": 1,
+        "nombreProducto": "Leche entera",
+        "precio": 15,
+        "stock": 10,
+        "imagen": "leche-entera.jpg"
+    },
+    {
+        "codigo": 14,
+        "rubro": 6,
+        "codigoInterno": 2,
+        "nombreProducto": "Leche descremada",
+        "precio": 79,
+        "stock": 10,
+        "imagen": "leche-descremada.jpg"
+    },
+    {
+        "codigo": 15,
+        "rubro": 6,
+        "codigoInterno": 3,
+        "nombreProducto": "Yogurt Ls Fut",
+        "precio": 85,
+        "stock": 10,
+        "imagen": "yogur-ls-frutilla.jpg"
+    },
+    {
+        "codigo": 16,
+        "rubro": 7,
+        "codigoInterno": 1,
+        "nombreProducto": "Agujas Canastita",
+        "precio": 63,
+        "stock": 10,
+        "imagen": "agujas-canastita.jpg"
+    },
+    {
+        "codigo": 17,
+        "rubro": 7,
+        "codigoInterno": 2,
+        "nombreProducto": "Elastico 2mts",
+        "precio": 49,
+        "stock": 10,
+        "imagen": "elastico.jpg"
+    },
+    {
+        "codigo": 18,
+        "rubro": 7,
+        "codigoInterno": 3,
+        "nombreProducto": "Hilo de coser",
+        "precio": 78,
+        "stock": 10,
+        "imagen": "hilo-coser.jpg"
+    },
+    {
+        "codigo": 19,
+        "rubro": 8,
+        "codigoInterno": 1,
+        "nombreProducto": "Caja de bombones",
+        "precio": 63,
+        "stock": 10,
+        "imagen": "caja-de-bombones.jpg"
+    },
+    {
+        "codigo": 20,
+        "rubro": 8,
+        "codigoInterno": 2,
+        "nombreProducto": "Perfume mujercitas",
+        "precio": 73,
+        "stock": 10,
+        "imagen": "perfume-mujercitas.jpg"
+    },
+    {
+        "codigo": 21,
+        "rubro": 8,
+        "codigoInterno": 3,
+        "nombreProducto": "Vino + Caja",
+        "precio": 15,
+        "stock": 10,
+        "imagen": "vino-caja.jpg"
+    },
+    {
+        "codigo": 22,
+        "rubro": 9,
+        "codigoInterno": 1,
+        "nombreProducto": "Doritos",
+        "precio": 91,
+        "stock": 10,
+        "imagen": "doritos.jpg"
+    },
+    {
+        "codigo": 23,
+        "rubro": 9,
+        "codigoInterno": 2,
+        "nombreProducto": "Lay's",
+        "precio": 85,
+        "stock": 10,
+        "imagen": "lays.jpg"
+    },
+    {
+        "codigo": 24,
+        "rubro": 9,
+        "codigoInterno": 3,
+        "nombreProducto": "Chettos",
+        "precio": 35,
+        "stock": 10,
+        "imagen": "cheetos.jpg"
+    }
+]

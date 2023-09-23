@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Pre-Entrega 3 - Di Falco Angel - JavaScript</title>
+</head>
+<h1>Proyecto Final</h1>
+<hr>
+<h3>Di Falco Angel</h3>
+
+<main>
+  <h2>Registro</h2>
+  <form id="form-registro">
+    <input type="text" placeholder="Nombre" id="nombre" class="nombre" minlength="4" required />
+    <input type="tel" placeholder="Apellido" id="apellido" minlength="4" required />
+    <input type="email" placeholder="Email" id="email" required />
+    <input type="number" min="1" placeholder="Edad" id="edad" required />
+    <input type="text" placeholder="Usuario" id="user" minlength="8" required />
+    <div>
+      <input type="password" placeholder="Ingrese su contrasenia" id="pass" minlength="8" required />
+      <input type="password" placeholder="Repita su contrasenia" id="rpass" minlength="8" required />
+      <br>
+      <div id="noCoincide" class="error"></div>
+    </div>
+    <input type="submit" class="btn-ingresas" value="Registrar" />
+    <br>
+    <div class="" id="">
+      <a href="../index.html">Atras</a>
+    </div>
+  </form>
+</main>
+<script src="../main/sweetalert.min.js"></script>
+<script src="../main/registro.js"></script>
+</body>
+
+</html>

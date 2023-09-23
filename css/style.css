@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #28bce5 !important;
+}
+
+button {
+    background: #aae9fa;
+    width: 130px;
+    border-radius: 7px;
+}
+
+.contenedor,
+.fin {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.cuadro {
+    margin-top: 10px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    background: #aae9fa;
+
+}
+
+main {
+    text-align: center;
+}
+
+
+
+
+.btnCerrar {
+    margin: 0px 10px;
+}
+
+#btnFin {
+    margin-top: 30px;
+}
+
+.cuadro {
+    margin-top: 10px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    background: #aae9fa;
+
+}
+
+.resumen {
+    text-align: justify;
+    display: flex;
+
+    padding: 5px;
+
+    border: 2px solid rgb(0, 0, 0);
+
+    flex-wrap: wrap;/
+}
+
+
+img.img-resumen {
+    margin: -20%;
+    width: 100%;
+    HEIGHT: 50PX !important;
+}
+
+.h3res h3 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#total {
+    font-size: 40px;
+    text-align: initial;
+}
+
+.botones {
+    height: 50px;
+    margin-left: 45%;
+}
+
+.btnbr {
+    height: 27px;
+    font-size: 15px;
+}
+
+.h3res {
+    text-align: center;
+    margin-top: -10px;
+    width: 140px;
+}
+
+.tituloProd {
+    height: 18px;
+}
